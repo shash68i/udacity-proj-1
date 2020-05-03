@@ -1,0 +1,17 @@
+#footer-content {
+    padding-top: 20px;
+    font-size: 24px;
+    color: white;
+    margin-top: 90px;
+    background-color: rgb(142, 83, 202);
+    height: 150px;
+    text-align: center;
+}
+
+#footer-content a {
+    color: rgb(195, 195, 235);
+}
+
+#footer-content a:hover {
+    color: rgb(1, 1, 2);
+}

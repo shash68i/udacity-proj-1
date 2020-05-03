@@ -1,0 +1,22 @@
+@media (min-width: 1240px) {
+    .post-display {
+        display: flex;
+    }
+}
+
+.fav-places {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.blog-post-title {
+    color: blueviolet;
+}
+
+.author-info {
+    color: green    ;
+}
+
+.avatar-image {
+    width: 60%;
+}

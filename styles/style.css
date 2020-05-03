@@ -1,0 +1,83 @@
+@import "cards-style.css";
+@import "footer-style.css";
+@import "blog-post.css";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #f6f6f6;
+    overflow-y: scroll;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+@media (min-width: 720px) {
+    .container {
+        width: 60%;
+    }
+}
+
+@media (min-width: 720px) and (max-width: 1240px) {
+    .container {
+        width: 80%;
+    }
+}
+
+.brand {
+   text-align: center;
+}
+
+.brand a {
+    font-size: 30px;
+}
+
+header {
+    /* background: rgb(111, 12, 211); */
+    background: #2995E7;
+    color: rgb(243, 235, 246);
+    padding-top: 10px;
+    min-height: 90px;
+}
+
+header    a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.nav-items a {
+    font-size: 20px;
+}
+
+@media (min-width: 720px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav-items {
+        width: 30%;
+    }
+}
+
+@media (min-width: 720px) {
+    .nav-items {
+        width: 50%;
+        justify-content: space-around;
+    }
+
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    margin-top: 28px;
+}
