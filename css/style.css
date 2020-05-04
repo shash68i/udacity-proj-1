@@ -1,6 +1,6 @@
 @import "cards-style.css";
 @import "footer-style.css";
-@import "blog-post.css";
+@import "posts-stylesheets/blog-post.css";
 
 body {
     font-family: Arial, Helvetica, sans-serif;
